@@ -1,0 +1,7 @@
+h1 {
+  transform: translateX(10px);
+  display: flex;
+}
+h1 {
+  background: url("../images/bg.jpg") no-repeat;
+}
