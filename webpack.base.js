@@ -4,8 +4,7 @@ const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 
 module.exports = {
   entry: {
-    home: './src/js/index.js',
-    about: './src/js/about.js'
+    home: './src/js/index.js'
   },
   output: {
     path: path.join(__dirname, 'dist'),
@@ -31,7 +30,10 @@ module.exports = {
         use: [
           {
             loader: 'babel-loader'
-          }
+          },
+          {
+            loader: 'eslint-loader'
+          },
         ],
         exclude: /node_modules/
       },

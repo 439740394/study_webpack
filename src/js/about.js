@@ -5,8 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/css/bootstrap-theme.min.css'
 import 'jquery'
 import 'bootstrap'
-import axios from 'axios';
 import './b'
 
-const a = 0;
+const a = 1;
+console.log(a);
 console.log('about');

@@ -5,9 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/css/bootstrap-theme.min.css'
 import 'jquery'
 import 'bootstrap'
-import 'axios';
 import './a'
 
 const a = 0;
+console.log(a);
 console.log('index');
-

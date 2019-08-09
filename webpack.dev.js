@@ -29,7 +29,7 @@ module.exports = merge(base, {
     new HtmlWebpackPlugin({
       template: 'src/index.html',
       filename: 'index.html',
-      chunks: ['index'],
+      chunks: ['home'],
       inject: 'body',
       minify: {
         collapseWhitespace: false,
